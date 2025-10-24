@@ -17,6 +17,7 @@ public class Dealership {
         inventory = new ArrayList<>();
     }
 
+    //------------------------------------------------------------
     public String getName() {
         return name;
     }
@@ -40,6 +41,7 @@ public class Dealership {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+//----------------------------------------------------------------
 
     public List<Vehicle> getVehiclesByPrice(double min, double max){
         return null;
@@ -74,7 +76,7 @@ public class Dealership {
     }
 
     public void removeVehicle(Vehicle vehicle){
-
+// Leave empty for now
     }
 
 }

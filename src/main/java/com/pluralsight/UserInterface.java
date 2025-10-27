@@ -33,6 +33,7 @@ public class UserInterface {
             System.out.println("8- Add a vehicle");
             System.out.println("9- Remove a vehicle");
             System.out.println("99- Quit");
+            System.out.print("Your Input: ");
 
             int userInput = scanner.nextInt();
 

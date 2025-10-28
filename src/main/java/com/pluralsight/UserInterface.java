@@ -38,7 +38,7 @@ public class UserInterface {
             int userInput = scanner.nextInt();
 
             switch (userInput){
-                case 1 -> processGetByPriceRequest();
+                case 1 -> processGetByPriceRequest(scanner);
                 case 2 -> processGetByMakeModelRequest();
                 case 3 -> processGetByYearRequest();
                 case 4 -> processGetByColorRequest();
@@ -54,7 +54,15 @@ public class UserInterface {
         System.out.println(" ");
     }
 
-    public void processGetByPriceRequest(){}
+    public void processGetByPriceRequest(Scanner scanner){
+        System.out.print("What is the minimum value: ");
+        double userMin = scanner.nextDouble();
+        System.out.print("What is the maximum value: ");
+        double userMax = scanner.nextDouble();
+
+        List<Vehicle> Temp = dealership.getVehiclesByPrice(userMin, userMax);
+        displayVehicles(Temp);
+    }
 
     public void processGetByMakeModelRequest(){}
 

@@ -1,19 +1,17 @@
-# Project Title
+# Car Dealership
 
 ## Description of the Project
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
-
+In this program you can look at cars, add cars, remove cars, and see all the cars. 
+It keeps track of everything in a text file so the cars don’t disappear when you close the program.
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
 
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
-
-## Setup
-
-Instructions on how to set up and run the project using IntelliJ IDEA.
+- As a user, I want the application to start from one main entry point, so that I can easily run the program.
+- As a user, I want to see a menu on the screen so that I can choose what actions to take in the dealership application.
+- As a user, I want the system to store information about vehicles and dealerships, so that my data can be organized and reused later.
+- As a user, I want the system to load and save vehicle data from a file, so that the dealership inventory is saved between sessions.
+- As a user, I want to search, add, and remove vehicles, so that I can manage the dealership’s inventory efficiently.
 
 ### Prerequisites
 
@@ -37,32 +35,18 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Demo
 
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
 
-![Application Screenshot](path/to/your/screenshot.png)
-
-## Future Work
-
-Outline potential future enhancements or functionalities you might consider adding:
-
-- Additional feature to be developed.
-- Improvement of current functionalities.
+![CarDealership GIF.gif](CarDealership%20GIF.gif)
 
 ## Resources
 
-List resources such as tutorials, articles, or documentation that helped you during the project.
 
-- [Java Programming Tutorial](https://www.example.com)
-- [Effective Java](https://www.example.com)
+- Potato Sensei
+- [Text to ASCII Art Generator](https://patorjk.com/software/taag/#p=display&f=Big&t=Finance&x=none&v=4&h=4&w=80&we=false)
 
-## Team Members
-
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
 
 ## Thanks
 
-Express gratitude towards those who provided help, guidance, or resources:
 
-- Thank you to [Mentor's Name] for continuous support and guidance.
-- A special thanks to all teammates for their dedication and teamwork.
+- Thank you to Raymond Maroun for continuous support and guidance.
+- A special thanks to Zain and Rahinur for their dedication and teamwork.

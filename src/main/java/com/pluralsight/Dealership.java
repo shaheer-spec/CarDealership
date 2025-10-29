@@ -118,7 +118,7 @@ public class Dealership {
     }
 
     public void removeVehicle(Vehicle vehicle){
-// Leave empty for now
+        inventory.remove(vehicle);
     }
 
 }

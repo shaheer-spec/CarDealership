@@ -55,23 +55,58 @@ public class Dealership {
     }
 
     public List<Vehicle> getVehiclesByMakeModel(String make, String model){
-        return null;
+        List<Vehicle> temp = new ArrayList<>();
+
+        for (Vehicle vehicle : inventory) {
+            if (vehicle.getMake().equalsIgnoreCase(make) && vehicle.getModel().equalsIgnoreCase(model)){
+                temp.add(vehicle);
+            }
+        }
+        return temp;
     }
 
     public List<Vehicle> getVehiclesByYear(int min, int max){
-        return null;
+        List<Vehicle> temp = new ArrayList<>();
+
+        for (Vehicle vehicle : inventory) {
+            if (vehicle.getYear() >= min && vehicle.getYear() <= max){
+                temp.add(vehicle);
+            }
+        }
+        return temp;
     }
 
     public List<Vehicle> getVehiclesByColor(String color){
-        return null;
+        List<Vehicle> temp = new ArrayList<>();
+
+        for (Vehicle vehicle : inventory) {
+            if (vehicle.getColor().equalsIgnoreCase(color)){
+                temp.add(vehicle);
+            }
+        }
+        return temp;
     }
 
     public List<Vehicle> getVehiclesByMileage(int min, int max){
-        return null;
+        List<Vehicle> temp = new ArrayList<>();
+
+        for (Vehicle vehicle : inventory) {
+            if (vehicle.getOdometer() >= min && vehicle.getOdometer() <= max){
+                temp.add(vehicle);
+            }
+        }
+        return temp;
     }
 
     public List<Vehicle> getVehiclesByType(String vehicleType){
-        return null;
+        List<Vehicle> temp = new ArrayList<>();
+
+        for (Vehicle vehicle : inventory) {
+            if (vehicle.getVehicleType().equalsIgnoreCase(vehicleType)){
+                temp.add(vehicle);
+            }
+        }
+        return temp;
     }
 
     public List<Vehicle> getAllVehicles(){

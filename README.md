@@ -36,7 +36,7 @@ Follow these steps to get your application running within IntelliJ IDEA:
 ## Demo
 
 
-![CarDealership GIF.gif](CarDealership%20GIF.gif)
+![CarDealership GIF.gif](CarDealership%20GIF.gif))
 
 ## Resources
 
